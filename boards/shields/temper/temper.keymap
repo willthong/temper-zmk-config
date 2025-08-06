@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-/* #include <dt-bindings/zmk/mouse.h> */
+#include <dt-bindings/zmk/mouse.h>
 
 &mt {
     flavor = "tap-preferred";
@@ -22,7 +22,7 @@
 #define FUN 3
 #define MSE 4
 
-# define ______ &trans
+#define ______ &trans
 
 
 / { 
@@ -58,7 +58,7 @@
             key-positions = <28 29>;
             bindings = <&mt LC(LSHFT) TAB>;
         };
-	combo_lnum {
+        combo_lnum {
             timeout-ms = <50>;
             key-positions = <23 30>;
             bindings = <&sl NUM>;
@@ -68,12 +68,12 @@
             key-positions = <22 30>;
             bindings = <&sl VIM>;
         };
-	combo_lfun {
+        combo_lfun {
             timeout-ms = <50>;
             key-positions = <21 30>;
             bindings = <&sl FUN>;
         };
-	combo_lnumlock {
+        combo_lnumlock {
             timeout-ms = <50>;
             key-positions = <23 31>;
             bindings = <&tog NUM>;
@@ -83,12 +83,12 @@
             key-positions = <22 31>;
             bindings = <&tog VIM>;
         };
-	combo_lfunlock {
+        combo_lfunlock {
             timeout-ms = <50>;
             key-positions = <21 31>;
             bindings = <&tog FUN>;
         };
-	combo_rnum {
+        combo_rnum {
             timeout-ms = <50>;
             key-positions = <26 33>;
             bindings = <&sl NUM>;
@@ -98,12 +98,12 @@
             key-positions = <27 33>;
             bindings = <&sl VIM>;
         };
-	combo_rfun {
+        combo_rfun {
             timeout-ms = <50>;
             key-positions = <28 33>;
             bindings = <&sl FUN>;
         };
-	combo_mouse {
+        combo_mouse {
             key-positions = <10 11>;
             bindings = <&sl MSE>;
         };
@@ -131,7 +131,6 @@
                 ;
         };
     };
-    
         keymap {
                 compatible = "zmk,keymap";
                 
@@ -142,7 +141,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 	 &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp CMMA      &kp DOT       &kp SLASH 
+     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA      &kp DOT       &kp SLASH 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
           	                     &kp LSHFT     &kp BSPC      &kp DEL          &kp RET        &kp SPC        &kp LCTRL
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
@@ -207,4 +206,3 @@
         
 	};
 };
-
