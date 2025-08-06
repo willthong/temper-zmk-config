@@ -19,7 +19,7 @@ layers:
     - B
     - N
     - M
-    - CMMA
+    - {t: ',', s: <}
     - {t: ., s: '>'}
     - {t: /, s: '?'}
   - [⇧, BSPC, DEL, RET, SPC, ⌃]
