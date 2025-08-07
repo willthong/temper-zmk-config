@@ -91,17 +91,17 @@
         };
         combo_rnum {
             timeout-ms = <50>;
-            key-positions = <26 35>;
+            key-positions = <26 34>;
             bindings = <&sl NUM>;
         };
         combo_rvim {
             timeout-ms = <50>;
-            key-positions = <27 35>;
+            key-positions = <27 34>;
             bindings = <&sl VIM>;
         };
         combo_rfun {
             timeout-ms = <50>;
-            key-positions = <28 35>;
+            key-positions = <28 34>;
             bindings = <&sl FUN>;
         };
         combo_mouse {
