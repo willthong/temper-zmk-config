@@ -61,7 +61,7 @@ layers:
     - '0'
     - {t: ▽, type: trans}
   vim:
-  - - {t: ▽, type: trans}
+  - - EP ON
     - '&next_word'
     - {t: ▽, type: trans}
     - END
