@@ -17,8 +17,6 @@
 };
 &sk {    release-after-ms = <500>;};
 
-&ext_power EP_ON
-
 #define HOM 0
 #define NUM 1
 #define VIM 2
@@ -168,7 +166,7 @@
 		vim_layer {
 		bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &trans        &next_word    &trans        &kp END       &trans            &kp HOME      &kp PG_UP     &trans        &trans        &kp PSCRN 
+   &ext_power EP_ON  &next_word   &trans        &kp END       &trans            &kp HOME      &kp PG_UP     &trans        &trans        &kp PSCRN 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &trans        &trans        &kp PG_DN     &trans        &trans            &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
