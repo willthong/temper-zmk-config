@@ -60,47 +60,47 @@
         };
         combo_lnum {
             timeout-ms = <50>;
-            key-positions = <23 30>;
+            key-positions = <23 31>;
             bindings = <&sl NUM>;
         };
         combo_lvim {
             timeout-ms = <50>;
-            key-positions = <22 30>;
+            key-positions = <22 31>;
             bindings = <&sl VIM>;
         };
         combo_lfun {
             timeout-ms = <50>;
-            key-positions = <21 30>;
+            key-positions = <21 31>;
             bindings = <&sl FUN>;
         };
         combo_lnumlock {
             timeout-ms = <50>;
-            key-positions = <23 31>;
+            key-positions = <23 32>;
             bindings = <&tog NUM>;
         };
         combo_lvimlock {
             timeout-ms = <50>;
-            key-positions = <22 31>;
+            key-positions = <22 32>;
             bindings = <&tog VIM>;
         };
         combo_lfunlock {
             timeout-ms = <50>;
-            key-positions = <21 31>;
+            key-positions = <21 32>;
             bindings = <&tog FUN>;
         };
         combo_rnum {
             timeout-ms = <50>;
-            key-positions = <26 33>;
+            key-positions = <26 35>;
             bindings = <&sl NUM>;
         };
         combo_rvim {
             timeout-ms = <50>;
-            key-positions = <27 33>;
+            key-positions = <27 35>;
             bindings = <&sl VIM>;
         };
         combo_rfun {
             timeout-ms = <50>;
-            key-positions = <28 33>;
+            key-positions = <28 35>;
             bindings = <&sl FUN>;
         };
         combo_mouse {
