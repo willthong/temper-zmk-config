@@ -8,14 +8,16 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-// #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 &mt {
     flavor = "tap-preferred";
     tapping_term_ms = <300>;
 };
 &sk {    release-after-ms = <500>;};
+
+&ext_power EP_ON
 
 #define HOM 0
 #define NUM 1
