@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: temper}
 layers:
-  home:
+  hom:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
     - S
@@ -54,8 +54,8 @@ layers:
     - '2'
     - '3'
     - {t: ., s: '>'}
-  - - {type: held}
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - RET
     - '0'
@@ -91,8 +91,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '&bootloader'
-  - - {type: held}
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -128,8 +128,8 @@ layers:
     - F2
     - F3
     - F12
-  - - {type: held}
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -141,13 +141,13 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&mwh SCROLL_UP'
+    - '&msc SCRL_UP'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {type: held}
     - {type: held}
-    - '&mwh SCROLL_DOWN'
+    - '&msc SCRL_DOWN'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '&mmv MOVE_LEFT'
@@ -173,7 +173,7 @@ layers:
     - {t: ▽, type: trans}
 combos:
 - p: [20, 21]
-  k: {t: ESC, h: home}
+  k: {t: ESC, h: hom}
 - p: [21, 22]
   k: {t: ⎇, h: sticky}
 - p: [23, 24]
@@ -184,23 +184,23 @@ combos:
   k: {t: ⎇, h: sticky}
 - p: [28, 29]
   k: {t: ↹, h: Ctl+⇧}
-- p: [23, 30]
-  k: {t: num, h: sticky}
-- p: [22, 30]
-  k: {t: vim, h: sticky}
-- p: [21, 30]
-  k: {t: fun, h: sticky}
 - p: [23, 31]
-  k: {t: num, h: toggle}
-- p: [22, 31]
-  k: {t: vim, h: toggle}
-- p: [21, 31]
-  k: {t: fun, h: toggle}
-- p: [26, 33]
   k: {t: num, h: sticky}
-- p: [27, 33]
+- p: [22, 31]
   k: {t: vim, h: sticky}
-- p: [28, 33]
+- p: [21, 31]
+  k: {t: fun, h: sticky}
+- p: [23, 32]
+  k: {t: num, h: toggle}
+- p: [22, 32]
+  k: {t: vim, h: toggle}
+- p: [21, 32]
+  k: {t: fun, h: toggle}
+- p: [26, 35]
+  k: {t: num, h: sticky}
+- p: [27, 35]
+  k: {t: vim, h: sticky}
+- p: [28, 35]
   k: {t: fun, h: sticky}
 - p: [10, 11]
   k: {t: mse, h: sticky}
