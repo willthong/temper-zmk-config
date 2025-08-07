@@ -196,11 +196,11 @@ combos:
   k: {t: vim, h: toggle}
 - p: [21, 32]
   k: {t: fun, h: toggle}
-- p: [26, 35]
+- p: [26, 34]
   k: {t: num, h: sticky}
-- p: [27, 35]
+- p: [27, 34]
   k: {t: vim, h: sticky}
-- p: [28, 35]
+- p: [28, 34]
   k: {t: fun, h: sticky}
 - p: [10, 11]
   k: {t: mse, h: sticky}
