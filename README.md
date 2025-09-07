@@ -1,10 +1,31 @@
-# Temper ZMK Config
+# Temper ZMK Keyboard Module
 
-This is my personal ZMK config for the [temper](https://github.com/raeedcho/temper).
+This module provides ZMK support for the Temper keyboard.
 
-Some notes about this config:
-- Four main layers (default, numbers/symbols, navigation, and function)
-- Default layer is Colemak DHm, but there's also a QWERTY layer that can be toggled on
-- Navigation layer has vim-like arrow keys
+## Usage
 
-![Temper Keymap](keymap_img/temper.svg)
+To use this module in your ZMK config, add it to your `config/west.yml`:
+
+```yaml
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: temper-zmk
+      url-base: https://github.com/willthong
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: temper-zmk-config
+      remote: temper-zmk
+      revision: module
+  self:
+    path: config
+```
+
+Then in your build configuration, specify the shield:
+- `temper_left` for the left side
+- `temper_right` for the right side
+
